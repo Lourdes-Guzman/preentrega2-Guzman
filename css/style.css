@@ -51,7 +51,7 @@ bordes-destacados {
 .titulo-center {
   text-align: center;
 }
-#flex-proximosestrenos {
+.flex-proximosestrenos {
   display: flex;
   width: 100%;
   margin: 0px;
@@ -70,6 +70,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  margin: 0px;
 }
 
 .carousel-inner {
@@ -105,13 +107,22 @@ h2.card {
   align-items: center;
 }
 .imagenes {
-  margin-right: 0px;
-  width: auto;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .article {
   display: flex;
+  width: 100%;
+  margin: 0px;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
