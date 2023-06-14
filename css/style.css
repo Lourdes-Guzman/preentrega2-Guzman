@@ -132,4 +132,8 @@ h2.card {
     flex-direction: column;
     background-color: aliceblue;
   }
+  .flex-proximosestrenos {
+    flex-direction: column;
+    background-color: aliceblue;
+  }
 }
