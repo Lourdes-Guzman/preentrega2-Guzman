@@ -130,5 +130,6 @@ h2.card {
 @media (max-width: 600px) {
   #flex-otrostitulos {
     flex-direction: column;
+    background-color: aliceblue;
   }
 }
