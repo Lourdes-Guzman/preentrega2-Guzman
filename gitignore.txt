@@ -1,0 +1,22 @@
+# Archivos y directorios generados por Sass
+.sass-cache/
+*.css.map
+
+# Dependencias de Sass
+/vendor/
+
+# Archivos compilados de Bootstrap
+/assets/css/
+/assets/js/
+
+# Archivos y directorios generados por el entorno de desarrollo
+/node_modules/
+/.env
+/.DS_Store
+
+# Archivos de respaldo y temporales
+*.log
+*.bak
+*.swp
+
+
