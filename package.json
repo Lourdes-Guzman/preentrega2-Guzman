@@ -1,0 +1,11 @@
+{
+  "name": "entrega",
+  "version": "1.0.0",
+  "description": "preentrega2-Guzman",
+  "main": "index.js",
+  "scripts": {
+    "compilar": "sass --watch scss:css"
+  },
+  "author": "",
+  "license": "ISC"
+}
