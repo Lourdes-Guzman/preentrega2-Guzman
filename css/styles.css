@@ -1,3 +1,4 @@
+/* mixin para ahorrar, ponerlo arriba*/
 * {
   padding: 0;
   margin: 0;
@@ -43,7 +44,6 @@ main h1 {
   justify-content: center;
 }
 
-/* mixin para ahorrar, ponerlo arriba*/
 .flex-conteiner {
   display: flex;
   flex-wrap: wrap;
@@ -67,10 +67,10 @@ main h1 {
 
 #video {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   margin: 0px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .carousel-inner {
@@ -94,13 +94,15 @@ h2.card {
 
 .row {
   padding: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 #flex-otrostitulos {
   display: flex;
-  background-color: blanchedalmond;
   width: 100%;
   margin: 0px;
+  background-color: blanchedalmond;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -112,9 +114,25 @@ h2.card {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 60%;
   margin: 0px;
   padding: auto;
+}
+
+.parrafo {
+  width: 60%;
+  margin: 0px;
+  padding: auto;
+  text-align: justify;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: 500px 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: start;
+  align-items: center;
 }
 
 .article {
